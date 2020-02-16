@@ -1,7 +1,6 @@
 package CSCE247Iterator;//lukacs ablonczy
 
 public class Assignment {
-
 	private String title, description, topic;
 	private int points;
 
@@ -13,7 +12,7 @@ public class Assignment {
 	}
 
 	public String toString() {
-		return "f";
+		return title + ": " + description + ". Topic: " + topic + " " + points;
 	}
 
 

@@ -7,7 +7,7 @@ public class Course {
 	private String name, title;
 
 	public Course(String name){
-		
+
 	}
 
 	public void addAssignment(String title, String description, String topic, int points){

@@ -1,4 +1,4 @@
-package csce247.assignments.iterator;
+package CSCE247Iterator;//lukacs ablonczy
 
 import java.util.Iterator;
 
