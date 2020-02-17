@@ -27,12 +27,12 @@ public class Course {
 		return new CourseIterator(assignments);
 	}
 
-	public double getAssignmentWeights() {
-		return PERCENT / assignments.length;
-	}
-
 	public String toString() {
 		return name + ": " + title;
+	}
+
+	public double getAssignmentWeights() {
+		return PERCENT / count;
 	}
 
 	public Assignment[] growArray(Assignment[] first) {
