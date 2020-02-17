@@ -74,4 +74,19 @@ public class Course {
 		return newArray;
 	}
 
+	/**
+	 * returns assn for Testing
+	 * @return assignments
+	 */
+	public Assignment[] getAssignments() {
+		return assignments;
+	}
+
+	/**
+	 * returns count for Testing
+	 * @return count
+	 */
+	public int getCount(){
+		return count;
+	}
 }
